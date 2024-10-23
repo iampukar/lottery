@@ -1,0 +1,37 @@
+# Node.js dependencies
+node_modules/
+
+# Build artifacts
+target/
+dist/
+coverage/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+
+# IDEA files
+.idea/
+
+# Vim files
+*.swp
+
+# MacOS files
+.DS_Store
+
+# Anchor keys and IDs (if any)
+*.json
+
+# Ignore build artifacts for programs
+programs/**/target/
+programs/**/node_modules/
+
+# Others
+.anchor
+**/*.rs.bk
+test-ledger
+.yarn
